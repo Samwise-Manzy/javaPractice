@@ -10,6 +10,10 @@ public class hello {
 
     System.out.println("hello " + name);
 
+    String myString = new String("this is my first string");
+    String easyString = "easy string";
+    System.out.println(myString + " " + easyString);
+
     }
 
     
