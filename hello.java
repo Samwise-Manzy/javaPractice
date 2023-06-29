@@ -5,20 +5,53 @@ import java.util.Scanner;
 public class hello {
 
     public static void main (String[] args) {
+
+        int spaceCounter = 0;
         
-     
-
-        User user = new User();
-        user.firstName = "Sam";
-        user.lastName = "Manz";
-
-        System.out.println(user.getFullName());
-
-
-       
+        for (int i = 9; i >= 0; i-=2) {
+            for (int k = i; k >= 0; k--) {
+                System.out.print(k + " ");
+            }
+            
+            System.out.println();
+            while (spaceCounter >= 0) {
+                System.out.print(" ");
+                
+            }
+            spaceCounter++;
+           
+        }
     }
 
 }
+
+
+      
+//******Ternary operator
+
+//          String name = "mariah";
+
+//          String welcome = name.equals("mariah") ? "get the fuck out" : "yay"; //****** ternary opperator!!!!!!!***********
+
+
+
+        // User user = new User();
+        // user.firstName = "Sam";
+        // user.lastName = "Manz";
+
+        // System.out.println(user.getFullName());
+
+        // System.out.println("what is your name: ");
+
+        // Snanner scanner = new Scanner(System.in);
+        // String name = scanner.nextLine();
+
+
+
+
+
+
+
     // public static void main(String[] args) {  // method
     //     // type identifier = new type()
     //     System.out.println("what is your name?");
