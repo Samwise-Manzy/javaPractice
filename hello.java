@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 
@@ -6,25 +7,71 @@ public class hello {
 
     public static void main (String[] args) {
 
-        int spaceCounter = 0;
         
-        for (int i = 9; i >= 0; i-=2) {
-            for (int k = i; k >= 0; k--) {
-                System.out.print(k + " ");
-            }
-            
-            System.out.println();
-            while (spaceCounter >= 0) {
-                System.out.print(" ");
-                
-            }
-            spaceCounter++;
-           
-        }
-    }
+
+
+
+        int[] rider = new int[10];
+        // Array.toString(arrayName) -> prints out array 
+        // Array.deepToString(arrayName); -> deep version when using nested arrays
+
+
+    int[] grades = {10, 1}; // creating an int array 
+    System.out.println(Arrays.toString(grades)); // way to print array without loop 
+
 
 }
 
+}
+
+// Array List 
+
+// ArrayList<Integer> grades = new ArrayList<Integer>();
+
+// ******* array 
+    
+    // import java.util.Arrays;
+
+
+    // List --> are similar to a Array but more dynamic\
+
+    // int[][] grades = new int[][];
+
+    // Arrays.fill(ArrayName, val) --> wills array with "val" 
+    // Arraysd.asList(arrname); --> 
+    // Arrays.equals(arrName1, arrayName2); --> cmipares arrays 
+
+    // Arrays.sort(arrName);    --> sorts array
+    // Arrays.parallelSort(arrName); --> breaks arrya into sub array -> use when working with a large array
+
+    //  for (int i = 0; i < arrSize; i++) {
+    //         int x = input.nextInt();
+    //         grades[i] = x;
+    //     }
+
+// int[] grades = new int[9]; // creating an int array 
+
+ // Array.toString(arrayName) -> prints out array 
+ // Array.deepToString(arrayName); -> deep version when using nested arrays
+
+// ******** pyrimade code 
+
+// int spaceCounter = 1;
+        
+// for (int i = 10; i >= 0; i--) {
+//     for (int k = i; k >= 0; k--) {
+//         System.out.print(k + " ");
+//     }
+    
+//     System.out.println();
+
+//     for (int k = spaceCounter; k > 0; k--) {
+//         System.out.print(" ");
+//     }
+//     spaceCounter++;
+   
+// }
+// }
 
       
 //******Ternary operator
